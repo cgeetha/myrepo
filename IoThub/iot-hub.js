@@ -41,7 +41,7 @@ IoTHubReaderClient.prototype.startReadMessage = function(cb) {
 }
 
 function IoTHubReaderClient(connectionString, consumerGroupName) {
-  this.iotHubClient = EventHubClient.fromConnectionString(connectionString);
+  this.iotHubClient1 = EventHubClient.fromConnectionString(connectionString);
   this.consumerGroupName = consumerGroupName;
 }
 
